@@ -14,6 +14,10 @@ app.get('/', function(req, res) {
   res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
+app.get('/search', function(req, res) {
+  res.render('search', { tag: req.query.tag });
+});
+
 // // Example reading from the request query string of an HTTP get request.
 // app.get('/test', function(req, res) {
 //   // GET http://example.parseapp.com/test?message=hello
