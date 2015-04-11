@@ -21,7 +21,6 @@
    <title>Hamstronaut</title>
    <meta name="description" content="My Parse App">
    <meta name="viewport" content="width=device-width">
-   <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/styles.css">
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
@@ -104,11 +103,15 @@
                  <hr>
                  <p>Discover one of the most amazing spots in the universe and</br> make it part of your life today</p>
                  <div class="search">
-                     <form action="/search" method="get" class="sfm">
+<!--                      <form action="/search" method="get" class="sfm">
                      <input type="text" name="tag" value="" id="sf"/>
                      <input type="submit" value="Search" id="sb"/>
-                     </form>
+                     </form> -->
+                    <form action="/explore" method="get">
+                     	<input type="submit" value="Explore" class="btn btn-default"/>
+                    </form>
                  </div>
+
              </div>    
          </div>
      </header>
@@ -283,11 +286,7 @@
                      <hr class="primary">
                      <p>Curious about Hamstronaut?</br></br>That's great!</br></br>Give us a call or send us an email and we will get back to you as soon as possible!</p>
                  </div>
-                 <div class="col-lg-4 col-lg-offset-2 text-center">
-                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                     <p>917-215-2023</p>
-                 </div>
-                 <div class="col-lg-4 text-center">
+                 <div class="col-lg-8 text-center">
                      <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                      <p><a href="mailto:your-email@your-domain.com">hi@hamstronaut</a></p>
                  </div>
@@ -305,6 +304,9 @@
      <script src="js/jquery.easing.min.js"></script>
      <script src="js/jquery.fittext.js"></script>
      <script src="js/wow.min.js"></script>
+     <script type="text/javascript">
+      	Parse.initialize("ltmtojcxY7yPhlgEohuenYF7g1QzNkfMYqOPg3xm", "3qpUbTCF3KwI6TxSsGYEnxanm2oYXyy1w2WFur4s");
+     </script>
 
      <!-- Custom Theme JavaScript -->
      <script src="js/creative.js"></script>
