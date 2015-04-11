@@ -1,0 +1,12 @@
+{
+  "name": "hamsteronaut",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node cloud/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3"
+  }
+}
