@@ -46,6 +46,10 @@ app.get('/admin', function(req, res) {
  
 });
 
+app.get('/story', function(req, res) {
+	res.render('story', {}); 
+});
+
 
 
 
