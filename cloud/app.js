@@ -2,7 +2,6 @@
 // These two lines are required to initialize Express in Cloud Code.
 express = require('express');
 app = express();
-// explore = require('./routes/explore');
 
 // Global app configuration section
 app.set('views', 'cloud/views');  // Specify the folder to find templates
@@ -24,6 +23,7 @@ app.get('/explore', function(req, res) {
 	Parse.Cloud.run('getAll', req.body, {
 	   success: function(result) {
 	     data = result;
+
 	     res.render('explore', { data:  data});
 	   },
 	   error: function(error) {
