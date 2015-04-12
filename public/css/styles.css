@@ -1,0 +1,64 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+.page-quote{
+	color: #110E35;
+}
+.container{
+	background-color: #FDFDFD;
+}
+.photo-container{
+	border-radius: 10px;
+	width: 60em;
+	margin: 0 auto;
+	background-color: #FFF;
+	box-shadow: 0px 1px 4px #F05F40;
+	margin-top: 5em;
+}
+.photo{
+	height: 50em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.photo-container .title{
+	color: #F05F40;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
+
+.photo-container .photo-header{
+	padding: 1em 1.5em;
+}
+
+.photo-container .description-container{
+	padding: 3em;
+}
+.photo-container .description{
+	font-size: 0.95em;
+	line-height: 1.7;
+}
+
+.photo-container .profile-credit{
+	float: left;
+	line-height: 4em;
+	font-weight: 700;
+	color: #4A90E2;
+	font-size: 1em;
+}
+
+.photo-container .profile-photo{
+	float: left;
+	width: 4.5em;
+	height: 4.5em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 0.5em;
+}
+.photo-container .profile-photo.APOD{
+	background-image: url(../img/nasa-logo.png);
+}

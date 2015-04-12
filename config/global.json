@@ -3,12 +3,12 @@
     "parseVersion": "1.4.2"
   },
   "applications": {
-    "Hamstronaut": {
-      "applicationId": "ltmtojcxY7yPhlgEohuenYF7g1QzNkfMYqOPg3xm",
-      "masterKey": "fXY13XRNGZDjcFLmhNaXeHuMHHKgwqTaG4hM3I0z"
+    "Hamstronaut-michelle": {
+      "applicationId": "baDEtdhN85SU3TZjWmIh2pllHsIm74uZnV1WlAab",
+      "masterKey": "YU1qmBObdv1xDNKPTsByYOtxcBKaUbVdT4RL3Hzh"
     },
     "_default": {
-      "link": "Hamstronaut"
+      "link": "Hamstronaut-michelle"
     }
   }
 }
