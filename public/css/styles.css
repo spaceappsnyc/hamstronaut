@@ -11,6 +11,11 @@ body{
 	padding: 0 1em;
 }
 
+header .header-content .header-content-inner p{
+	color: #181351;
+	font-weight: 400;
+}
+
 header{
 	background: #95DEDA;
 }
