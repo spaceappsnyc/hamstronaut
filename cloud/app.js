@@ -33,6 +33,22 @@ app.get('/explore', function(req, res) {
  
 });
 
+
+app.get('/admin', function(req, res) {
+	Parse.Cloud.run('saveData', req.body, {
+	   success: function(result) {
+	     // res.render('admin', { data:  data});
+	   },
+	   error: function(error) {
+	   	// res.render('admin', { data:  "error"});
+	   }
+	});
+ 
+});
+
+
+
+
 // app.post('/explore', function(req, res){
 // 	explore.list(req, res);
 // });
