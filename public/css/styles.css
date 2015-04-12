@@ -1,10 +1,84 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
+	background-color: #FDFDFD;
+}
+
+.navbar-default {
+  background-color: rgba(156,255, 250, .3);
+}
+#mainNav{
+	padding: 0 1em;
+}
+
+header{
+	background: #95DEDA;
+}
+
+header .header-content .header-content-inner h1{
+	text-transform: none;
+}
+
+header h1 .highlight{
+	color: #F05F40;
+}
+
+#photo-section.bg-primary{
+	background-color: #fff;
+}
+
+#photo-section submit{
+	margin: 0 auto;
+	display: block;
+}
+
+#photo-section .story-mode{
+	padding: 6em 1em;
+}
+
+#photo-section .story-mode h3{
+	min-height: 3em;
+}
+
+.story-mode form{
+	margin-top: 3em;
+}
+
+.smart-mode{
+	color: #333;
+}
+
+.smart-mode .btn{
+	border: #777 1px solid;
+}
+
+.fun-mode{
+	background-color: #f05f40;
+	color: #fff;
+}
+
+.fun-mode .btn{
+	border: #A1361F 1px solid;
+}
+
+.mission-hamstro{
+	background: url("../img/mission-hamstro.png") no-repeat;
+	width: 40em;
+	height: 30em;
+	background-size: cover;
+	background-position: -3em;
+	margin: 0 auto;
+}
+.navbar-brand.hamstro{
+	background: url("../img/hamstro.png") no-repeat;
+	display: block;
+	width: 5em;
+	height: 5em;
+	background-size: cover;
 }
 
 .page-quote{
-	color: #110E35;
+	color: #181351;
 }
 .container{
 	background-color: #FDFDFD;
@@ -61,4 +135,18 @@ body{
 }
 .photo-container .profile-photo.APOD{
 	background-image: url(../img/nasa-logo.png);
+}
+
+.footer{
+	padding: 1em 0;
+	background-color: #F05F40;
+	color: #fff;
+}
+
+.footer .row{
+	background-color: #F05F40;
+}
+
+.footer p{
+	font-size: 0.8em;
 }
