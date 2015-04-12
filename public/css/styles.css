@@ -40,6 +40,23 @@ header h1 .highlight{
 	min-height: 3em;
 }
 
+.hamstro-smart{
+	background: url("../img/hamstro-smart.png") no-repeat;
+	width: 5em;
+	height: 5em;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+.hamstro-fun{
+	background: url("../img/hamstro-fun.png") no-repeat;
+	width: 5em;
+	height: 5em;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+
 .story-mode form{
 	margin-top: 3em;
 }
